@@ -84,12 +84,22 @@ form {
     border: solid 1px var(--soft-desaturated-red) ;
 }
 
+.invalid-form {
+    border: 2px solid var(--soft-red);
+}
+
+
 form > input {
-    height: 6vh;
+    height: 100%;
     padding-left: 4vw;
+    padding-top: .25vh;
     border: none;
     width: 100%;
     background-color: transparent;
+}
+
+form > input:focus {
+    outline: none;
 }
 
 form > button {
@@ -113,7 +123,22 @@ textarea::placeholder {
 .error-sign {
     display: none;
     margin: 0 2vw;
-    height: 3.5vh;
+    height: 2.75vh;
+}
+
+.error-message {
+    font-size: 3vw;
+    margin-top: -2.5vh;
+    margin-left: 4vw;
+    text-align: left;
+}
+
+.success-message {
+    font-size: 3vw;
+    margin-top: -2.5vh;
+    margin-left: 4vw;
+    text-align: left;
+    color: aquamarine;
 }
 
 .animated {
