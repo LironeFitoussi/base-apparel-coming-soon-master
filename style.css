@@ -64,6 +64,14 @@ main {
     color: var(--desaturated-red);
 }
 
+main > p {
+    line-height: 3vh;
+    font-size: 3.6vw;
+    font-size: 400;
+    text-align: center;
+    color: var(--desaturated-red);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
