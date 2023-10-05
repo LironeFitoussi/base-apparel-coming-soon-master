@@ -35,7 +35,7 @@ main {
 main > p {
     text-align: left;
     font-size: 1.3vw;
-    line-height: 5vh;
+    line-height: 4vh;
 }
 
 footer {
@@ -62,6 +62,7 @@ form > input {
     padding-left: 2vw;
 }
 
-.error-message {
+.error-message, .success-message {
     margin-left: 2vw;
+    font-size: initial;
 }

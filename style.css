@@ -131,6 +131,7 @@ textarea::placeholder {
     margin-top: -2.5vh;
     margin-left: 4vw;
     text-align: left;
+    color: var(--soft-red);
 }
 
 .success-message {
