@@ -42,6 +42,22 @@ body {
 .hero-model {
     width: 100%;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    gap: 3vh;
+}
+
+.coming-header {
+    font-size: 52px;
+    text-align: center;
+}
+
+.coming-header > span {
+    font-weight: 300;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
