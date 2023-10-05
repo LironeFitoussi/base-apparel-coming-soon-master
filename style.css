@@ -30,6 +30,11 @@ body {
     align-items: flex-start;
 }
 
+.company-logo {
+    margin: 3vh;
+    width: 35%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
