@@ -38,12 +38,6 @@ main > p {
     line-height: 4vh;
 }
 
-footer {
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    align-items: center;
-}
 
 form {
     height: 7vh;
