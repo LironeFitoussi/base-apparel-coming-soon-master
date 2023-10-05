@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 
-* {
-  font-family: "Josefin Sans", sans-serif;
-}
-
 /* reset */ 
 h1, p, body {
     margin: 0;
+}
+
+* {
+    font-family: "Josefin Sans", sans-serif;
 }
 :root {
   /* Primary Colors */
@@ -51,8 +51,12 @@ main {
 }
 
 .coming-header {
-    font-size: 52px;
+    letter-spacing: 3vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 9.5vw;
     text-align: center;
+    color: var(--dark-grayish-red);
 }
 
 .coming-header > span {
