@@ -78,18 +78,17 @@ form {
     position: relative;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    height: fit-content;
+    height: 6vh;
+    border: solid 1px var(--soft-desaturated-red) ;
 }
 
 form > input {
     height: 6vh;
-    padding: .25vh 0 0 3vw;
+    padding-left: 4vw;
     border: none;
-    border-radius: inherit;
     width: 100%;
-    border: solid 1px var(--soft-desaturated-red) ;
-    color: var(--soft-desaturated-red);
     background-color: transparent;
 }
 
@@ -100,7 +99,6 @@ form > button {
     height: 100%;
     border: none;
     border-radius: inherit;
-    position: absolute;
     right: 0;
     padding: 0 6vw;
     background-image: var(--gradient-2);
@@ -111,6 +109,42 @@ input::placeholder,
 textarea::placeholder {
   color:var(--soft-desaturated-red); /* You can replace #999 with the color of your choice */
 } 
+
+.error-sign {
+    display: none;
+    margin: 0 2vw;
+    height: 3.5vh;
+}
+
+.animated {
+    animation: error-animation .5s;
+}
+
+@keyframes error-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(30deg);
+    }
+
+    40% {
+        transform: rotate(-30deg);
+    }
+
+    60% {
+        transform: rotate(30deg);
+    }
+
+    80% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
 .attribution {
   font-size: 11px;
