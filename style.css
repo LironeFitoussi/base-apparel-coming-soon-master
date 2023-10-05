@@ -11,6 +11,7 @@ h1, p, body {
 :root {
   /* Primary Colors */
   --desaturated-red: hsl(0, 36%, 70%);
+  --soft-desaturated-red: hsla(0, 36%, 70%, 0.5);
   --soft-red: hsl(0, 93%, 68%);
 
   /* Neutral Colors */
@@ -35,8 +36,8 @@ body {
 }
 
 .company-logo {
-    margin: 3vh;
-    width: 35%;
+    margin: 4.5vh;
+    width: 30%;
 }
 
 .hero-model {
@@ -71,6 +72,44 @@ main > p {
     text-align: center;
     color: var(--desaturated-red);
 }
+
+form {
+    border-radius: 10vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+form > input {
+    height: 6vh;
+    padding: .25vh 0 0 3vw;
+    border: none;
+    border-radius: inherit;
+    width: 100%;
+    border: solid 1px var(--soft-desaturated-red) ;
+    color: var(--soft-desaturated-red);
+    background-color: transparent;
+}
+
+form > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: none;
+    border-radius: inherit;
+    position: absolute;
+    right: 0;
+    padding: 0 6vw;
+    background-image: var(--gradient-2);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color:var(--soft-desaturated-red); /* You can replace #999 with the color of your choice */
+} 
 
 .attribution {
   font-size: 11px;
