@@ -1,9 +1,7 @@
-body {
-    background-color: aqua;
-}
-
 #container {
     background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     display: grid;
     grid-template-columns: 1.25fr 1fr;
     grid-template-rows: 1fr 4fr;
@@ -60,4 +58,10 @@ form > input {
 .error-message, .success-message {
     margin-left: 2vw;
     font-size: initial;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
 }
