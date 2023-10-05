@@ -44,3 +44,24 @@ footer {
     width: 100%;
     align-items: center;
 }
+
+form {
+    height: 7vh;
+}
+
+.error-sign {
+    margin: 0 1vw;
+    height: 3.5vh;
+}
+
+form > button {
+    padding: 0 3.25vw;
+}
+
+form > input {
+    padding-left: 2vw;
+}
+
+.error-message {
+    margin-left: 2vw;
+}
