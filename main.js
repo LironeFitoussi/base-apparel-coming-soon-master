@@ -1,5 +1,6 @@
-console.log("test");
-
+if (window.innerWidth >= 425) {
+    $(".hero-model").attr("src", "./images/hero-desktop.jpg")
+}
 const statusMsg = $("<p>")
 
 $("form").submit(function (e) { 
@@ -44,6 +45,3 @@ function mailSuccess() {
     $("main").append(statusMsg);
 }
 
-if (window.innerWidth >= 1440) {
-    $(".hero-model").attr("src", "./images/hero-desktop.jpg")
-}
