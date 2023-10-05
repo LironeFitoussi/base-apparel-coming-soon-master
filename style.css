@@ -57,7 +57,9 @@ main {
 
 .coming-header > span {
     font-weight: 300;
+    color: var(--desaturated-red);
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
