@@ -18,6 +18,9 @@
 }
 
 body {
+    background-image: var(--gradient-1);
+    background-repeat: no-repeat;
+    min-height: 100vh;
     font-size: 16px;
 }
 
