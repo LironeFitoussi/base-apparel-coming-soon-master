@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    align-items: center;
+}
+
+main {
+    margin: 0 10vw;
+    margin-top: -12.5vh;
+}
+.hero-model {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.company-logo {
+    margin: 5vh 10vw;
+    width: 25%;
+}
+
+.coming-header {
+    letter-spacing: 1.5vw;
+    font-size: 5vw;
+    text-align: left;
+}
+
+main > p {
+    text-align: left;
+    font-size: 1.3vw;
+    line-height: 5vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    align-items: center;
+}

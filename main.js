@@ -43,3 +43,7 @@ function mailSuccess() {
     $(statusMsg).text("Success!");
     $("main").append(statusMsg);
 }
+
+if (window.innerWidth >= 1440) {
+    $(".hero-model").attr("src", "./images/hero-desktop.jpg")
+}
